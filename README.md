@@ -1,5 +1,5 @@
 
-<h1 align="center">Carrusel Vertical - Electrónica Digital I</h1>
+<h1 align="center">Carrusel Vertical</h1>
 
 <div align="center">
     <img src="resources_rm/Structure.jpeg", width="300">
