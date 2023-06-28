@@ -1,6 +1,6 @@
 
 <h1 align="center">Carrusel Vertical - Electrónica Digital I</h1>
-<p align="right"> Electrónica Digital I </p>
+<sub align="right"> Electrónica Digital I </sub>
 <p align="center">
     <a href=" "><strong>Jhoan Esteban Castañeda</strong></a>
     ·
