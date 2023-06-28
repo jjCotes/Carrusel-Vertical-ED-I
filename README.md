@@ -149,5 +149,4 @@ https://github.com/jjCotes/Electronica-Digital-I-2023-I/assets/49933067/974ba413
 - <a href="https://ingenieria.capris.com.co/kardex-2/"><strong>Kardex - Capris Colombia | Ingeniería</strong></a>
 - <a href="https://arquitecturayempresa.es/noticia/eco-cycle-arquitectura-urbana-subterranea-por-la-sostenibilidad"><strong>ECO Cycle. Arquitectura urbana subterránea por la sostenibilidad</strong></a>
 - <a href="http://planeacion.unal.edu.co/menu-principal/sistema-de-planeacion/gestion-por-proyectos/"><strong>Gestión por Proyectos - Sistema de Planeación UNAL</strong></a>
-- <a href="https://www.amazon.com/Electronic-Devices-Thomas-L-Floyd/dp/1292222999">Electronic Devices [10th Edición] - Thomas L. Floyd<strong></strong></a>
 
