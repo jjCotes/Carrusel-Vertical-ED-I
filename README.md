@@ -32,9 +32,9 @@ Dentro del mundo del motociclismo, el casco se convierte en una molestia cuando 
     La solución propuesta para el proyecto es usar carruseles verticales subterráneos con la capacidad de controlarse mediante el uso del carné estudiantil. Así pues, el estudiante acerca su carné al lector, y el carrusel girará y buscará un espacio. Luego de encontrar un espacio, abrirá la puerta de seguridad y el estudiante podrá depositar su casco. Con esto, el estudiante debe cerrar la puerta de seguridad y su casco quedara guardado. Cuando el estudiante desee recoger su casco, acercará su carné al lector y el carrusel girará y buscará el espacio asociado a ese carné. Finalmente abrirá la puerta de seguridad y el estudiante podrá recuperar su casco
 </p>
 
-<p>
-    
-</p>
+<div align="center">
+    <img src="resources_rm/Operation_3.webm", width="600">
+</div>
 
 <h2 align="center">Montaje, Ensayos y Pruebas</h2>
 
