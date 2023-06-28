@@ -35,3 +35,8 @@
 
 - <a href="https://www.mecalux.com.co/manual-almacenaje/sistemas-de-almacenaje/almacen-%20vertical-carrusel-horizontal"><strong>Almacenes verticales y carruseles verticales u horizontales</strong></a>
 - <a href="https://zonalogistica.com/el-sistema-de-almacenamiento-vertical-carruseles-verticales/"><strong>El sistema de almacenamiento vertical (Carruseles verticales)</strong></a>
+- <a href="https://ingenieria.capris.com.co/kardex-2/"><strong>Kardex - Capris Colombia | Ingeniería</strong></a>
+- <a href="https://arquitecturayempresa.es/noticia/eco-cycle-arquitectura-urbana-subterranea-por-la-sostenibilidad"><strong>ECO Cycle. Arquitectura urbana subterránea por la sostenibilidad</strong></a>
+- <a href="http://planeacion.unal.edu.co/menu-principal/sistema-de-planeacion/gestion-por-proyectos/"><strong>Gestión por Proyectos - Sistema de Planeación UNAL</strong></a>
+- <a href="http://planeacion.unal.edu.co/menu-principal/sistema-de-planeacion/gestion-por-proyectos/"><strong>Gestión por Proyectos - Sistema de Planeación UNAL</strong></a>
+
