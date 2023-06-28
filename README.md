@@ -113,32 +113,7 @@ privados, o entre inmuebles privados y elementos del espacio público.
 <p align="justify">
     
 </p>
-<p align="justify">
-    
-</p>
-<p align="justify">
-    
-</p>
-<p align="justify">
-    
-</p>
-<p align="justify">
-    
-</p>
-<p align="justify">
-    
-</p>
-<p align="justify">
-    
-</p>
 
-
-
-<h2 align="center">Legal</h2>
-- Para el proyecto dentro de la Universidad
-<p align="justify">
-El desarrollo institucional en la Universidad Nacional de Colombia se materializa a través de la gestión de proyectos de inversión y soporte institucional.
-</p>
 
 <h2 align="center">Montaje, Ensayos y Pruebas</h2>
 
