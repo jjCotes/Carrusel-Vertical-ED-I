@@ -38,8 +38,17 @@ Dentro del mundo del motociclismo, el casco se convierte en una molestia cuando 
 
 <h2 align="center">Montaje, Ensayos y Pruebas</h2>
 
+<h4 align="center">Idea inicial</h4>
+<div align="center">
+    <img src="resources_rm/3D model.png", width="300">
+</div>
+
 
 https://github.com/jjCotes/Electronica-Digital-I-2023-I/assets/49933067/974ba413-4aed-4c4c-8b41-b446440c104f
+<div align="center">
+    <img src="resources_rm/Motor-assembly.jpeg", width="300">
+</div>
+
 
 <h2 align="center">Referencias</h2>
 
