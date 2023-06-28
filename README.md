@@ -33,14 +33,14 @@ Dentro del mundo del motociclismo, el casco se convierte en una molestia cuando 
 </p>
 
 <div align="center">
-    <img src="resources_rm/Karrusell-showing-model.gif", width="300">
+    <img src="resources_rm/Karrusell-showing-model.gif", width="500">
 </div>
 
 <h2 align="center">Montaje, Ensayos y Pruebas</h2>
 
 - <h4>Idea inicial</h4>
 <div align="center">
-    <img src="resources_rm/3D model.png", width="300">
+    <img src="resources_rm/3D model.png", width="500">
 </div><br>
 
 - <h4>Prueba de funcionamiento sin carga</h4>
@@ -51,7 +51,7 @@ https://github.com/jjCotes/Electronica-Digital-I-2023-I/assets/49933067/974ba413
 
 - <h4>Ensamble del motor al eje principal del carrusel</h4>
 <div align="center">
-    <img src="resources_rm/Motor-assembly.jpeg", width="300">
+    <img src="resources_rm/Motor-assembly.jpeg", width="500">
 </div><br>
 
 
