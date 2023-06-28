@@ -1,4 +1,3 @@
-7
 <h1 align="center">Carrusel Vertical</h1>
 
 <div align="center">
@@ -115,6 +114,15 @@
 <p align="justify">
     
 </p>
+
+<h2 align="center">Simulaciones</h2>
+
+<div align="center">
+    <img src="resources_rm/Sim_1.jpeg", width="500">
+</div><br>
+<div align="center">
+    <img src="resources_rm/Sim_2.jpeg", width="500">
+</div><br>
 
 
 <h2 align="center">Montaje, Ensayos y Pruebas</h2>
