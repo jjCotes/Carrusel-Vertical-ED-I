@@ -143,6 +143,7 @@ https://github.com/jjCotes/Electronica-Digital-I-2023-I/assets/49933067/974ba413
 
 <h2 align="center">Referencias</h2>
 
+- <a href="https://www.amazon.com/Electronic-Devices-Thomas-L-Floyd/dp/1292222999">Electronic Devices [10th Edición] - Thomas L. Floyd<strong></strong></a>
 - <a href="https://www.mecalux.com.co/manual-almacenaje/sistemas-de-almacenaje/almacen-%20vertical-carrusel-horizontal"><strong>Almacenes verticales y carruseles verticales u horizontales</strong></a>
 - <a href="https://zonalogistica.com/el-sistema-de-almacenamiento-vertical-carruseles-verticales/"><strong>El sistema de almacenamiento vertical (Carruseles verticales)</strong></a>
 - <a href="https://ingenieria.capris.com.co/kardex-2/"><strong>Kardex - Capris Colombia | Ingeniería</strong></a>
