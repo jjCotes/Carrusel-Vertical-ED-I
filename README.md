@@ -57,8 +57,14 @@
 <p align="justify">
     Actualmente existen casilleros con distintos servicios que se enfocan en la comodidad del usuario como iluminación, ventilación e incluso acceso con datos biométricos. Inicialmente nuestros casilleros no implementarían ninguna de estas funciones debido a un incremento considerable en el presupuesto para su desarrollo. Aunque debido a estas tecnologías nuestro proyecto puede verse un poco anticuado, son características que se piensan implementar a largo plazo.
 </p>
+
+<h2 align="center">Tecnológico</h2>
+- Para el proyecto dentro de la Universidad
 <p align="justify">
-    La normatividad de la gesti´on por proyectos de inversión y soporte institucional en la Universidad Nacional de Colombia esta dada en el Acuerdo 238 de 2017 del Consejo Superior Universitario y la Resolución 355 de 2022 de la Rectoría. Donde se encuentran los lineamientos para los procedimientos de los proyectos de inversión.
+    El desarrollo institucional en la Universidad Nacional de Colombia se materializa a través de la gestión de proyectos de inversión y soporte institucional.
+</p>
+<p align="justify">
+    La normatividad de la gestión por proyectos de inversión y soporte institucional en la Universidad Nacional de Colombia esta dada en el Acuerdo 238 de 2017 del Consejo Superior Universitario y la Resolución 355 de 2022 de la Rectoría. Donde se encuentran los lineamientos para los procedimientos de los proyectos de inversión.
 </p>
 <p align="justify">
     Con la resolución de Rectoría No. 418 del 24 de abril del 2000, se organizó el Banco de Proyectos de la Universidad Nacional de Colombia, como un sistema de información en red administrado por la Oficina Nacional de Planeación.
@@ -70,9 +76,7 @@
     La Resolución de Rectoría 309 de 09 de marzo de 2009, indica que la Oficina Nacional de Planeaciín, es la responsable de la administración del Banco de Proyectos de la Universidad Nacional de Colombia y se definieron los lineamientos para los procedimientos del Banco de Proyectos de la Universidad Nacional de Colombia.
 </p>
 <p align="justify">
-    La Resolución de Rectoría 383 de 2014 se establece la estructura interna de la Dirección Nacional de Planeación y Estadística, y se determinan sus
-funciones, entre las cuales se encuentra la coordinación del Sistema de
-Planeación de la Universidad.
+    La Resolución de Rectoría 383 de 2014 se establece la estructura interna de la Dirección Nacional de Planeación y Estadística, y se determinan sus funciones, entre las cuales se encuentra la coordinación del Sistema de Planeación de la Universidad.
 </p>
 <p align="justify">
     Acuerdo 238 DE 2017 Capitulo V del plan de acción institucional, de los planes de acción de sede y del banco de proyectos de la Universidad Nacional de Colombia – BPUN.
@@ -80,13 +84,10 @@ Planeación de la Universidad.
 
 - Para el uso del subsuelo necesario para el proyecto
 <p align="justify">
-    Plan de Ordenamiento Territorial de Bogotá D.C, Decreto 555 de 2021,
-Artículo 145. Intervenci´on y Ocupaci´on del Espacio Público.
+    Plan de Ordenamiento Territorial de Bogotá D.C, Decreto 555 de 2021, Artículo 145. Intervención y Ocupación del Espacio Público.
 </p>
 <p align="justify">
-    Instituto de Desarrollo Urbano - Autorizar la utilización del espacio aéreo
-o del subsuelo para generar elementos de enlace urbano entre inmuebles
-privados, o entre inmuebles privados y elementos del espacio público.
+    Instituto de Desarrollo Urbano - Autorizar la utilización del espacio aéreo o del subsuelo para generar elementos de enlace urbano entre inmuebles privados, o entre inmuebles privados y elementos del espacio público.
 </p>
 
 <h2 align="center">Diagrama de Flujo</h2>
