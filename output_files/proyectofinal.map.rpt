@@ -1,0 +1,514 @@
+Analysis & Synthesis report for proyectofinal
+Tue Jun 27 23:56:07 2023
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Inverted Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Port Connectivity Checks: "servo:instancia5|div_frec:instancia1"
+ 13. Port Connectivity Checks: "div_frec:instancia3"
+ 14. Port Connectivity Checks: "div_frec:instancia1"
+ 15. Post-Synthesis Netlist Statistics for Top Partition
+ 16. Elapsed Time Per Partition
+ 17. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Jun 27 23:56:07 2023       ;
+; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                      ; proyectofinal                               ;
+; Top-level Entity Name              ; U_logica                                    ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 857                                         ;
+;     Total combinational functions  ; 848                                         ;
+;     Dedicated logic registers      ; 234                                         ;
+; Total registers                    ; 234                                         ;
+; Total pins                         ; 24                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE10E22C8       ;                    ;
+; Top-level entity name                                            ; U_logica           ; proyectofinal      ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 6           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 6           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                         ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------+---------+
+; div_frec.vhd                     ; yes             ; User VHDL File  ; C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/div_frec.vhd      ;         ;
+; control_motor.vhd                ; yes             ; User VHDL File  ; C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/control_motor.vhd ;         ;
+; servo.vhd                        ; yes             ; User VHDL File  ; C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/servo.vhd         ;         ;
+; anti_rebote.vhd                  ; yes             ; User VHDL File  ; C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/anti_rebote.vhd   ;         ;
+; U_logica.vhd                     ; yes             ; User VHDL File  ; C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/U_logica.vhd      ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                              ;
++---------------------------------------------+----------------------------+
+; Resource                                    ; Usage                      ;
++---------------------------------------------+----------------------------+
+; Estimated Total logic elements              ; 857                        ;
+;                                             ;                            ;
+; Total combinational functions               ; 848                        ;
+; Logic element usage by number of LUT inputs ;                            ;
+;     -- 4 input functions                    ; 564                        ;
+;     -- 3 input functions                    ; 148                        ;
+;     -- <=2 input functions                  ; 136                        ;
+;                                             ;                            ;
+; Logic elements by mode                      ;                            ;
+;     -- normal mode                          ; 740                        ;
+;     -- arithmetic mode                      ; 108                        ;
+;                                             ;                            ;
+; Total registers                             ; 234                        ;
+;     -- Dedicated logic registers            ; 234                        ;
+;     -- I/O registers                        ; 0                          ;
+;                                             ;                            ;
+; I/O pins                                    ; 24                         ;
+;                                             ;                            ;
+; Embedded Multiplier 9-bit elements          ; 0                          ;
+;                                             ;                            ;
+; Maximum fan-out node                        ; div_frec:instancia1|salida ;
+; Maximum fan-out                             ; 133                        ;
+; Total fan-out                               ; 3496                       ;
+; Average fan-out                             ; 3.09                       ;
++---------------------------------------------+----------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                      ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------+---------------+--------------+
+; Compilation Hierarchy Node    ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                            ; Entity Name   ; Library Name ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------+---------------+--------------+
+; |U_logica                     ; 848 (692)           ; 234 (126)                 ; 0           ; 0            ; 0       ; 0         ; 24   ; 0            ; |U_logica                                      ; U_logica      ; work         ;
+;    |anti_rebote:instancia4|   ; 4 (4)               ; 9 (9)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |U_logica|anti_rebote:instancia4               ; anti_rebote   ; work         ;
+;    |control_motor:instancia2| ; 6 (6)               ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |U_logica|control_motor:instancia2             ; control_motor ; work         ;
+;    |div_frec:instancia1|      ; 45 (45)             ; 29 (29)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |U_logica|div_frec:instancia1                  ; div_frec      ; work         ;
+;    |div_frec:instancia3|      ; 46 (46)             ; 29 (29)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |U_logica|div_frec:instancia3                  ; div_frec      ; work         ;
+;    |servo:instancia5|         ; 55 (10)             ; 35 (6)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |U_logica|servo:instancia5                     ; servo         ; work         ;
+;       |div_frec:instancia1|   ; 45 (45)             ; 29 (29)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |U_logica|servo:instancia5|div_frec:instancia1 ; div_frec      ; work         ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------+---------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                              ;
++----------------------------------------+----------------------------------------+
+; Register name                          ; Reason for Removal                     ;
++----------------------------------------+----------------------------------------+
+; Sentidogirosalidadirecta[1]            ; Stuck at GND due to stuck port data_in ;
+; Arreglomemoriascopia4[5]               ; Merged with Arreglomemoriascopia3[5]   ;
+; Arreglomemoriascopia4[4]               ; Merged with Arreglomemoriascopia3[4]   ;
+; Arreglomemoriascopia4[3]               ; Merged with Arreglomemoriascopia3[3]   ;
+; Arreglomemoriascopia4[2]               ; Merged with Arreglomemoriascopia3[2]   ;
+; Arreglomemoriascopia4[1]               ; Merged with Arreglomemoriascopia3[1]   ;
+; Arreglomemoriascopia4[0]               ; Merged with Arreglomemoriascopia3[0]   ;
+; Arreglomemoriascopia4[11]              ; Merged with Arreglomemoriascopia3[11]  ;
+; Arreglomemoriascopia4[10]              ; Merged with Arreglomemoriascopia3[10]  ;
+; Arreglomemoriascopia4[9]               ; Merged with Arreglomemoriascopia3[9]   ;
+; Arreglomemoriascopia4[8]               ; Merged with Arreglomemoriascopia3[8]   ;
+; Arreglomemoriascopia4[7]               ; Merged with Arreglomemoriascopia3[7]   ;
+; Arreglomemoriascopia4[6]               ; Merged with Arreglomemoriascopia3[6]   ;
+; Arreglomemoriascopia4[17]              ; Merged with Arreglomemoriascopia3[17]  ;
+; Arreglomemoriascopia4[16]              ; Merged with Arreglomemoriascopia3[16]  ;
+; Arreglomemoriascopia4[15]              ; Merged with Arreglomemoriascopia3[15]  ;
+; Arreglomemoriascopia4[14]              ; Merged with Arreglomemoriascopia3[14]  ;
+; Arreglomemoriascopia4[13]              ; Merged with Arreglomemoriascopia3[13]  ;
+; Arreglomemoriascopia4[12]              ; Merged with Arreglomemoriascopia3[12]  ;
+; Arreglomemoriascopia4[23]              ; Merged with Arreglomemoriascopia3[23]  ;
+; Arreglomemoriascopia4[22]              ; Merged with Arreglomemoriascopia3[22]  ;
+; Arreglomemoriascopia4[21]              ; Merged with Arreglomemoriascopia3[21]  ;
+; Arreglomemoriascopia4[20]              ; Merged with Arreglomemoriascopia3[20]  ;
+; Arreglomemoriascopia4[19]              ; Merged with Arreglomemoriascopia3[19]  ;
+; Arreglomemoriascopia4[18]              ; Merged with Arreglomemoriascopia3[18]  ;
+; Arreglomemoriascopia4[29]              ; Merged with Arreglomemoriascopia3[29]  ;
+; Arreglomemoriascopia4[28]              ; Merged with Arreglomemoriascopia3[28]  ;
+; Arreglomemoriascopia4[27]              ; Merged with Arreglomemoriascopia3[27]  ;
+; Arreglomemoriascopia4[26]              ; Merged with Arreglomemoriascopia3[26]  ;
+; Arreglomemoriascopia4[25]              ; Merged with Arreglomemoriascopia3[25]  ;
+; Arreglomemoriascopia4[24]              ; Merged with Arreglomemoriascopia3[24]  ;
+; Arreglomemoriascopia4[35]              ; Merged with Arreglomemoriascopia3[35]  ;
+; Arreglomemoriascopia4[34]              ; Merged with Arreglomemoriascopia3[34]  ;
+; Arreglomemoriascopia4[33]              ; Merged with Arreglomemoriascopia3[33]  ;
+; Arreglomemoriascopia4[32]              ; Merged with Arreglomemoriascopia3[32]  ;
+; Arreglomemoriascopia4[31]              ; Merged with Arreglomemoriascopia3[31]  ;
+; Arreglomemoriascopia4[30]              ; Merged with Arreglomemoriascopia3[30]  ;
+; Arreglomemoriascopia4[41]              ; Merged with Arreglomemoriascopia3[41]  ;
+; Arreglomemoriascopia4[40]              ; Merged with Arreglomemoriascopia3[40]  ;
+; Arreglomemoriascopia4[39]              ; Merged with Arreglomemoriascopia3[39]  ;
+; Arreglomemoriascopia4[38]              ; Merged with Arreglomemoriascopia3[38]  ;
+; Arreglomemoriascopia4[37]              ; Merged with Arreglomemoriascopia3[37]  ;
+; Arreglomemoriascopia4[36]              ; Merged with Arreglomemoriascopia3[36]  ;
+; Arreglomemoriascopia4[47]              ; Merged with Arreglomemoriascopia3[47]  ;
+; Arreglomemoriascopia4[46]              ; Merged with Arreglomemoriascopia3[46]  ;
+; Arreglomemoriascopia4[45]              ; Merged with Arreglomemoriascopia3[45]  ;
+; Arreglomemoriascopia4[44]              ; Merged with Arreglomemoriascopia3[44]  ;
+; Arreglomemoriascopia4[43]              ; Merged with Arreglomemoriascopia3[43]  ;
+; Arreglomemoriascopia4[42]              ; Merged with Arreglomemoriascopia3[42]  ;
+; Total Number of Removed Registers = 49 ;                                        ;
++----------------------------------------+----------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 234   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 12    ;
+; Number of registers using Asynchronous Clear ; 1     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 4     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------+
+; Inverted Register Statistics                      ;
++-----------------------------------------+---------+
+; Inverted Register                       ; Fan out ;
++-----------------------------------------+---------+
+; Arreglomemoriascero[24]                 ; 10      ;
+; Arreglomemoriascero[25]                 ; 10      ;
+; Arreglomemoriascero[26]                 ; 10      ;
+; Arreglomemoriascero[27]                 ; 10      ;
+; Arreglomemoriascero[28]                 ; 10      ;
+; Arreglomemoriascero[29]                 ; 10      ;
+; Arreglomemoriascero[30]                 ; 10      ;
+; Arreglomemoriascero[31]                 ; 10      ;
+; Arreglomemoriascero[32]                 ; 10      ;
+; Arreglomemoriascero[33]                 ; 10      ;
+; Arreglomemoriascero[34]                 ; 10      ;
+; Arreglomemoriascero[35]                 ; 10      ;
+; Arreglomemoriascero[42]                 ; 12      ;
+; Arreglomemoriascero[43]                 ; 12      ;
+; Arreglomemoriascero[44]                 ; 12      ;
+; Arreglomemoriascero[45]                 ; 12      ;
+; Arreglomemoriascero[46]                 ; 13      ;
+; Arreglomemoriascero[47]                 ; 13      ;
+; Arreglomemoriascero[6]                  ; 10      ;
+; Arreglomemoriascero[7]                  ; 10      ;
+; Arreglomemoriascero[8]                  ; 10      ;
+; Arreglomemoriascero[9]                  ; 10      ;
+; Arreglomemoriascero[10]                 ; 10      ;
+; Arreglomemoriascero[11]                 ; 10      ;
+; Arreglomemoriascero[18]                 ; 10      ;
+; Arreglomemoriascero[19]                 ; 10      ;
+; Arreglomemoriascero[20]                 ; 10      ;
+; Arreglomemoriascero[21]                 ; 10      ;
+; Arreglomemoriascero[22]                 ; 10      ;
+; Arreglomemoriascero[23]                 ; 10      ;
+; Arreglomemoriascero[12]                 ; 10      ;
+; Arreglomemoriascero[13]                 ; 10      ;
+; Arreglomemoriascero[14]                 ; 10      ;
+; Arreglomemoriascero[15]                 ; 10      ;
+; Arreglomemoriascero[16]                 ; 11      ;
+; Arreglomemoriascero[17]                 ; 11      ;
+; Servosenal                              ; 2       ;
+; registrosensor[1]                       ; 2       ;
+; anti_rebote:instancia4|registro[3]      ; 2       ;
+; anti_rebote:instancia4|registro[4]      ; 2       ;
+; anti_rebote:instancia4|registro[2]      ; 2       ;
+; anti_rebote:instancia4|registro[5]      ; 2       ;
+; anti_rebote:instancia4|registro[6]      ; 2       ;
+; anti_rebote:instancia4|registro[7]      ; 2       ;
+; anti_rebote:instancia4|registro[8]      ; 1       ;
+; anti_rebote:instancia4|registro[0]      ; 2       ;
+; anti_rebote:instancia4|registro[1]      ; 2       ;
+; Total number of inverted registers = 47 ;         ;
++-----------------------------------------+---------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |U_logica|control_motor:instancia2|salida[0] ;
+; 3:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |U_logica|contadorvueltas[5]                 ;
+; 9:1                ; 12 bits   ; 72 LEs        ; 60 LEs               ; 12 LEs                 ; Yes        ; |U_logica|Arreglomemoriascero[3]             ;
+; 9:1                ; 30 bits   ; 180 LEs       ; 150 LEs              ; 30 LEs                 ; Yes        ; |U_logica|Arreglomemoriascero[6]             ;
+; 10:1               ; 6 bits    ; 36 LEs        ; 6 LEs                ; 30 LEs                 ; Yes        ; |U_logica|Arreglomemoriascero[47]            ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |U_logica|Vcontrol                           ;
+; 9:1                ; 42 bits   ; 252 LEs       ; 210 LEs              ; 42 LEs                 ; No         ; |U_logica|Arreglomemoriascero                ;
+; 18:1               ; 14 bits   ; 168 LEs       ; 154 LEs              ; 14 LEs                 ; No         ; |U_logica|contadorvueltas                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
+
+
++------------------------------------------------------------------+
+; Port Connectivity Checks: "servo:instancia5|div_frec:instancia1" ;
++-----------------+-------+----------+-----------------------------+
+; Port            ; Type  ; Severity ; Details                     ;
++-----------------+-------+----------+-----------------------------+
+; nciclos[14..13] ; Input ; Info     ; Stuck at VCC                ;
+; nciclos[8..7]   ; Input ; Info     ; Stuck at VCC                ;
+; nciclos[31..15] ; Input ; Info     ; Stuck at GND                ;
+; nciclos[12..9]  ; Input ; Info     ; Stuck at GND                ;
+; nciclos[2..0]   ; Input ; Info     ; Stuck at GND                ;
+; nciclos[6]      ; Input ; Info     ; Stuck at GND                ;
+; nciclos[5]      ; Input ; Info     ; Stuck at VCC                ;
+; nciclos[4]      ; Input ; Info     ; Stuck at GND                ;
+; nciclos[3]      ; Input ; Info     ; Stuck at VCC                ;
++-----------------+-------+----------+-----------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "div_frec:instancia3"   ;
++-----------------+-------+----------+--------------+
+; Port            ; Type  ; Severity ; Details      ;
++-----------------+-------+----------+--------------+
+; nciclos[18..15] ; Input ; Info     ; Stuck at VCC ;
+; nciclos[31..19] ; Input ; Info     ; Stuck at GND ;
+; nciclos[12..9]  ; Input ; Info     ; Stuck at GND ;
+; nciclos[7..6]   ; Input ; Info     ; Stuck at GND ;
+; nciclos[4..0]   ; Input ; Info     ; Stuck at GND ;
+; nciclos[14]     ; Input ; Info     ; Stuck at GND ;
+; nciclos[13]     ; Input ; Info     ; Stuck at VCC ;
+; nciclos[8]      ; Input ; Info     ; Stuck at VCC ;
+; nciclos[5]      ; Input ; Info     ; Stuck at VCC ;
++-----------------+-------+----------+--------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "div_frec:instancia1"   ;
++-----------------+-------+----------+--------------+
+; Port            ; Type  ; Severity ; Details      ;
++-----------------+-------+----------+--------------+
+; nciclos[15..14] ; Input ; Info     ; Stuck at VCC ;
+; nciclos[9..8]   ; Input ; Info     ; Stuck at VCC ;
+; nciclos[31..16] ; Input ; Info     ; Stuck at GND ;
+; nciclos[13..10] ; Input ; Info     ; Stuck at GND ;
+; nciclos[3..0]   ; Input ; Info     ; Stuck at GND ;
+; nciclos[7]      ; Input ; Info     ; Stuck at GND ;
+; nciclos[6]      ; Input ; Info     ; Stuck at VCC ;
+; nciclos[5]      ; Input ; Info     ; Stuck at GND ;
+; nciclos[4]      ; Input ; Info     ; Stuck at VCC ;
++-----------------+-------+----------+--------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 24                          ;
+; cycloneiii_ff         ; 234                         ;
+;     CLR               ; 1                           ;
+;     ENA               ; 4                           ;
+;     SLD               ; 12                          ;
+;     plain             ; 217                         ;
+; cycloneiii_lcell_comb ; 858                         ;
+;     arith             ; 108                         ;
+;         2 data inputs ; 89                          ;
+;         3 data inputs ; 19                          ;
+;     normal            ; 750                         ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 18                          ;
+;         2 data inputs ; 37                          ;
+;         3 data inputs ; 129                         ;
+;         4 data inputs ; 564                         ;
+;                       ;                             ;
+; Max LUT depth         ; 14.00                       ;
+; Average LUT depth     ; 9.28                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:02     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Tue Jun 27 23:55:57 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyectofinal -c proyectofinal
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file div_frec.vhd
+    Info (12022): Found design unit 1: div_frec-divisor File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/div_frec.vhd Line: 23
+    Info (12023): Found entity 1: div_frec File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/div_frec.vhd Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file control_motor.vhd
+    Info (12022): Found design unit 1: control_motor-arch File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/control_motor.vhd Line: 21
+    Info (12023): Found entity 1: control_motor File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/control_motor.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file servo.vhd
+    Info (12022): Found design unit 1: servo-ciclo_trabajo File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/servo.vhd Line: 17
+    Info (12023): Found entity 1: servo File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/servo.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file anti_rebote.vhd
+    Info (12022): Found design unit 1: anti_rebote-registro File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/anti_rebote.vhd Line: 26
+    Info (12023): Found entity 1: anti_rebote File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/anti_rebote.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file u_logica.vhd
+    Info (12022): Found design unit 1: U_logica-arch File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/U_logica.vhd Line: 32
+    Info (12023): Found entity 1: U_logica File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/U_logica.vhd Line: 7
+Info (12127): Elaborating entity "U_logica" for the top level hierarchy
+Warning (10492): VHDL Process Statement warning at U_logica.vhd(579): signal "DetectoTarjeta" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/U_logica.vhd Line: 579
+Info (12128): Elaborating entity "div_frec" for hierarchy "div_frec:instancia1" File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/U_logica.vhd Line: 104
+Info (12128): Elaborating entity "control_motor" for hierarchy "control_motor:instancia2" File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/U_logica.vhd Line: 106
+Info (12128): Elaborating entity "anti_rebote" for hierarchy "anti_rebote:instancia4" File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/U_logica.vhd Line: 110
+Warning (10492): VHDL Process Statement warning at anti_rebote.vhd(60): signal "registro" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/anti_rebote.vhd Line: 60
+Info (12128): Elaborating entity "servo" for hierarchy "servo:instancia5" File: C:/Users/jhoan/OneDrive/Documentos/Quartus/EDigitalI/proyectofinal/U_logica.vhd Line: 112
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 951 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 9 input pins
+    Info (21059): Implemented 15 output pins
+    Info (21061): Implemented 927 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4803 megabytes
+    Info: Processing ended: Tue Jun 27 23:56:07 2023
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:21
+
+

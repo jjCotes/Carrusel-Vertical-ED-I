@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Jun 27 23:56:07 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : proyectofinal
+Top-level Entity Name : U_logica
+Family : Cyclone IV E
+Total logic elements : 857
+    Total combinational functions : 848
+    Dedicated logic registers : 234
+Total registers : 234
+Total pins : 24
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

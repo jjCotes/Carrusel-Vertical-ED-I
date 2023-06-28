@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Jun 27 23:56:15 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : proyectofinal
+Top-level Entity Name : U_logica
+Family : Cyclone IV E
+Device : EP4CE10E22C8
+Timing Models : Final
+Total logic elements : 863 / 10,320 ( 8 % )
+    Total combinational functions : 848 / 10,320 ( 8 % )
+    Dedicated logic registers : 234 / 10,320 ( 2 % )
+Total registers : 234
+Total pins : 24 / 92 ( 26 % )
+Total virtual pins : 0
+Total memory bits : 0 / 423,936 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

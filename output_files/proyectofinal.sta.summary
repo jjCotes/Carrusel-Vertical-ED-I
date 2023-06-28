@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'div_frec:instancia1|salida'
+Slack : -9.602
+TNS   : -651.522
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -4.560
+TNS   : -204.493
+
+Type  : Slow 1200mV 85C Model Setup 'servo:instancia5|div_frec:instancia1|salida'
+Slack : -1.459
+TNS   : -5.918
+
+Type  : Slow 1200mV 85C Model Setup 'div_frec:instancia3|salida'
+Slack : -0.161
+TNS   : -0.318
+
+Type  : Slow 1200mV 85C Model Hold 'div_frec:instancia1|salida'
+Slack : 0.434
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'servo:instancia5|div_frec:instancia1|salida'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'div_frec:instancia3|salida'
+Slack : 0.509
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.747
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -132.369
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'div_frec:instancia1|salida'
+Slack : -1.487
+TNS   : -196.284
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'div_frec:instancia3|salida'
+Slack : -1.487
+TNS   : -13.383
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'servo:instancia5|div_frec:instancia1|salida'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Slow 1200mV 0C Model Setup 'div_frec:instancia1|salida'
+Slack : -8.932
+TNS   : -605.679
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.245
+TNS   : -177.953
+
+Type  : Slow 1200mV 0C Model Setup 'servo:instancia5|div_frec:instancia1|salida'
+Slack : -1.231
+TNS   : -4.810
+
+Type  : Slow 1200mV 0C Model Setup 'div_frec:instancia3|salida'
+Slack : -0.048
+TNS   : -0.093
+
+Type  : Slow 1200mV 0C Model Hold 'div_frec:instancia1|salida'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'servo:instancia5|div_frec:instancia1|salida'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'div_frec:instancia3|salida'
+Slack : 0.479
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.695
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -132.369
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'div_frec:instancia1|salida'
+Slack : -1.487
+TNS   : -196.284
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'div_frec:instancia3|salida'
+Slack : -1.487
+TNS   : -13.383
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'servo:instancia5|div_frec:instancia1|salida'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Fast 1200mV 0C Model Setup 'div_frec:instancia1|salida'
+Slack : -3.627
+TNS   : -218.869
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.409
+TNS   : -40.851
+
+Type  : Fast 1200mV 0C Model Setup 'servo:instancia5|div_frec:instancia1|salida'
+Slack : -0.052
+TNS   : -0.052
+
+Type  : Fast 1200mV 0C Model Setup 'div_frec:instancia3|salida'
+Slack : 0.498
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'div_frec:instancia1|salida'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'servo:instancia5|div_frec:instancia1|salida'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'div_frec:instancia3|salida'
+Slack : 0.198
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -95.624
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'div_frec:instancia1|salida'
+Slack : -1.000
+TNS   : -132.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'div_frec:instancia3|salida'
+Slack : -1.000
+TNS   : -9.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'servo:instancia5|div_frec:instancia1|salida'
+Slack : -1.000
+TNS   : -6.000
+
+------------------------------------------------------------
