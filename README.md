@@ -29,3 +29,9 @@
 <div align="center">
     <img src="resources_rm/Operation_1.gif", width="600">
 </div>
+
+
+<h2 align="center">Referencias</h2>
+
+- <a href="https://www.mecalux.com.co/manual-almacenaje/sistemas-de-almacenaje/almacen-%20vertical-carrusel-horizontal"><strong>Almacenes verticales y carruseles verticales u horizontales</strong></a>
+- <a href="https://zonalogistica.com/el-sistema-de-almacenamiento-vertical-carruseles-verticales/"><strong>El sistema de almacenamiento vertical (Carruseles verticales)</strong></a>
