@@ -59,6 +59,7 @@
 </p>
 
 <h2 align="center">Legal</h2>
+
 - <h4>Para el proyecto dentro de la Universidad</h4>
 <p align="justify">
     El desarrollo institucional en la Universidad Nacional de Colombia se materializa a través de la gestión de proyectos de inversión y soporte institucional.
