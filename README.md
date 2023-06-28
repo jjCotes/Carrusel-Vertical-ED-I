@@ -1,7 +1,7 @@
 
 <h1 align="center">Carrusel Vertical - Electrónica Digital I</h1>
 
-![](resources_rm/Mod/Structure.png)
+![](resources_rm/Mod/Structure_blackbars.png)
 
 <p align="right"> Electrónica Digital I </p>
 <p align="center">
