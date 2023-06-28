@@ -1,7 +1,7 @@
 
 <h1 align="center">Carrusel Vertical - Electrónica Digital I</h1>
 
-![](https://raw.githubusercontent.com/jjCotes/Electronica-Digital-I-2023-I/main/resources_rm/Structure.jpeg)
+![](resources_rm/Mod/Structure.png)
 
 <p align="right"> Electrónica Digital I </p>
 <p align="center">
