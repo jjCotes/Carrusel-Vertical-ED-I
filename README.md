@@ -54,6 +54,11 @@ https://github.com/jjCotes/Electronica-Digital-I-2023-I/assets/49933067/974ba413
     <img src="resources_rm/Motor-assembly.jpeg", width="500">
 </div><br>
 
+- <h4>Estructura de madera</h4>
+<div align="center">
+    <img src="resources_rm/Structure_1.jpeg", width="500">
+</div>
+
 
 <h2 align="center">Referencias</h2>
 
