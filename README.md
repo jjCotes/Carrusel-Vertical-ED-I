@@ -38,6 +38,10 @@ Dentro del mundo del motociclismo, el casco se convierte en una molestia cuando 
 
 <h2 align="center">Montaje, Ensayos y Pruebas</h2>
 
+<video controls autoplay>
+  <source src="resources_rm/Operation_3.webm" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 <div align="center">
     <img src="resources_rm/Operation_3.webm", width="20">
 </div>
