@@ -2,7 +2,7 @@
 <h1 align="center">Carrusel Vertical - Electrónica Digital I</h1>
 
  <div align="center">
-    <img src="resources_rm/Structure.jpeg", width="600">
+    <img src="resources_rm/Structure.jpeg", width="300">
  </div>
 
 <p align="right"> Electrónica Digital I </p>
