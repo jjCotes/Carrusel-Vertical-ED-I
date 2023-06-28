@@ -98,7 +98,7 @@
 <h2 align="center">Diagramas de Bloques</h2>
 <div align="center">
     <img src="resources_rm/Block-diagram_1.jpeg", width="500">
-</div>
+</div> <br>
 <div align="center">
     <img src="resources_rm/Block-diagram_2.jpeg", width="500">
 </div>
@@ -106,7 +106,7 @@
 <h2 align="center">Máquinas de Estado</h2>
 <div align="center">
     <img src="resources_rm/State-diagram_1.jpeg", width="500">
-</div>
+</div> <br>
 <div align="center">
     <img src="resources_rm/State-diagram_2.jpeg", width="500">
 </div>
