@@ -7,13 +7,13 @@
 
 <p align="right"> Electrónica Digital I </p>
 <p align="center">
-    <a href=" "><strong>Jhoan Esteban Castañeda</strong></a>
+    <a href="https://www.instagram.com/esteban_625/"><strong>Jhoan Esteban Castañeda</strong></a>
     ·
-    <a href=" "><strong>Maicol David Tunjano </strong></a>
+    <a href="https://www.instagram.com/maicoltunjano13/"><strong>Maicol David Tunjano </strong></a>
     ·
-    <a href=" "><strong>Sebastian A. Pantoja F.</strong></a>
+    <a href="https://www.instagram.com/sebaspantojaf/"><strong>Sebastian A. Pantoja F.</strong></a>
     ·
-    <a href="https://github.com/jjCotes/"><strong>José J. Cotes A.</strong></a>
+    <a href="https://www.instagram.com/jj_cotes/"><strong>José J. Cotes A.</strong></a> <!--https://github.com/jjCotes/-->
 </p>
 
 
