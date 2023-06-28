@@ -1,6 +1,5 @@
-# Carrusel Vertical - Electrónica Digital I
 
-<h1 align="center">Drag Your GAN: Carrusel Vertical</h1>
+<h1 align="center">Carrusel Vertical - Electrónica Digital I</h1>
 <p align="center">
     <a href=" "><strong>Jhoan Esteban Castañeda</strong></a>
     ·
