@@ -39,7 +39,7 @@ Dentro del mundo del motociclismo, el casco se convierte en una molestia cuando 
 <h2 align="center">Montaje, Ensayos y Pruebas</h2>
 
 <div align="center">
-    <img src="resources_rm/Operation_3.webm", width="300">
+    <img src="resources_rm/Operation_3.webm", width="100">
 </div>
 
 
