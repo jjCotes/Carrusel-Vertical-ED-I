@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Salectu[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Salectu[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Salectu[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Salectu[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Salectu[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Salectu[5]",
+					"strict" : false
+				},
+				{
+					"name" : "EstaAqui",
+					"strict" : false
+				},
+				{
+					"name" : "Hayesp",
+					"strict" : false
+				},
+				{
+					"name" : "SenalControl[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SenalControl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SalidaServo",
+					"strict" : false
+				},
+				{
+					"name" : "Salidaalmotor[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Salidaalmotor[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Salidaalmotor[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Salidaalmotor[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Lecturatarjeta[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Lecturatarjeta[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Lecturatarjeta[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Lecturatarjeta[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Lecturatarjeta[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Lecturatarjeta[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DetectoTarjeta",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "Sensorproximidad",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
