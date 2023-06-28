@@ -16,13 +16,25 @@
     <a href="https://www.instagram.com/jj_cotes/"><strong>José J. Cotes A.</strong></a> <!--https://github.com/jjCotes/-->
 </p>
 
-
-
-<h2 align="center">Alcance y Problemática</h2>
-<p> 
-    En la Universidad Nacional de Colombia sede Bogotá, un gran porcentaje de personas (estudiantes, docentes, personal, etc.) utilizan vehículos personales como medio de transporte diario para poder dirigirse a las instalaciones. A su vez, un gran porcentaje de estas personas son propietarias de motocicletas. Dentro del mundo del motociclismo, el casco se convierte en una molestia cuando se llega al destino y no hay un lugar seguro para guardarlo. Frecuentemente los propietarios optan por llevar sus cascos con ellos o encuentran la manera de fijarlos a las mismas motocicletas. Además de ser incámodo tener que llevar “colgado” el casco a todo lugar, existe la posibilidad de pérdida del objeto por olvido. La alternativa de dejar ligado el casco a la motocicleta puede no resultar del todo exitosa puesto a que, considerando que en el campus los parqueaderos están al aire libre, los cascos quedan expuestos no solo a personas malintencionadas sino también a daños generados por lluvias o climas muy cálidos.
+<h2 align="center">Descripción</h2>
+<p>
+    El proyecto consiste en un locker de cascos de motocicleta automatizado que cuenta con 2 periféricos de entrada y 2 de salida. Como periféricos de entrada se tiene principalmente un lector RFID que tiene la función de leer la identificación del usuario para posteriormente guardarla y asignarle un casillero vacío. Como segundo periférico de entrada se emplea un sensor de proximidad con el objetivo de detectar si un casillero se encuentra vacío. Cuando el lector RFID detecta una tarjeta, se activa un motor paso a paso el cual se encarga de girar una cadena que a su vez mueve los casilleros de tal forma que el sensor de proximidad (que está fijo en la estructura del locker) pueda detectar si el casillero está vacío o no. Si se determina que el casillero está vacío, se activa un segundo periférico de salida que consiste en un servo-motor que libera la puerta del casillero a utilizar.
 </p>
 
+<h2 align="center">Problema a resolver</h2>
+<p> 
+    En la Universidad Nacional de Colombia sede Bogotá, un gran porcentaje de personas (estudiantes, docentes, personal, etc.) utilizan vehículos personales como medio de transporte diario para poder dirigirse a las instalaciones. A su vez, un gran porcentaje de estas personas son propietarias de motocicletas. 
+Dentro del mundo del motociclismo, el casco se convierte en una molestia cuando se llega al destino y no hay un lugar seguro para guardarlo. Frecuentemente los propietarios optan por llevar sus cascos con ellos o encuentran la manera de fijarlos a las mismas motocicletas. Además de ser incómodo tener que llevar “colgado” el casco a todo lugar, existe la posibilidad de pérdida del objeto por olvido. La alternativa de dejar ligado el casco a la motocicleta puede no resultar del todo exitosa puesto a que, considerando que en el campus los parqueaderos están al aire libre, los cascos quedan expuestos no solo a personas malintencionadas sino también a daños generados por lluvias o climas muy cálidos.
+</p>
+
+<h2 align="center">Solución</h2>
+<p>
+    La solución propuesta para el proyecto es usar carruseles verticales subterráneos con la capacidad de controlarse mediante el uso del carné estudiantil. Así pues, el estudiante acerca su carné al lector, y el carrusel girará y buscará un espacio. Luego de encontrar un espacio, abrirá la puerta de seguridad y el estudiante podrá depositar su casco. Con esto, el estudiante debe cerrar la puerta de seguridad y su casco quedara guardado. Cuando el estudiante desee recoger su casco, acercará su carné al lector y el carrusel girará y buscará el espacio asociado a ese carné. Finalmente abrirá la puerta de seguridad y el estudiante podrá recuperar su casco
+</p>
+
+<p>
+    
+</p>
 
 <h2 align="center">Montaje, Ensayos y Pruebas</h2>
 
