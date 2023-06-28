@@ -38,7 +38,7 @@ Dentro del mundo del motociclismo, el casco se convierte en una molestia cuando 
 
 <h2 align="center">Montaje, Ensayos y Pruebas</h2>
 
-[Operation_3.webm](https://github.com/jjCotes/Electronica-Digital-I-2023-I/assets/49933067/fb21397f-5b70-4b1f-99cc-e3c89329fad4)
+[](https://github.com/jjCotes/Electronica-Digital-I-2023-I/assets/49933067/fb21397f-5b70-4b1f-99cc-e3c89329fad4)
 
 <h2 align="center">Referencias</h2>
 
