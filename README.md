@@ -62,13 +62,13 @@
 
 - <h4>Para el proyecto dentro de la Universidad</h4>
 <p align="justify">
-    El desarrollo institucional en la Universidad Nacional de Colombia se materializa a través de la gestión de proyectos de inversión y soporte institucional.
+    El desarrollo institucional en la Universidad Nacional de Colombia se materializa a través de la gestión de proyectos de inversión y soporte institucional.
 </p>
 <p align="justify">
     La normatividad de la gestión por proyectos de inversión y soporte institucional en la Universidad Nacional de Colombia esta dada en el Acuerdo 238 de 2017 del Consejo Superior Universitario y la Resolución 355 de 2022 de la Rectoría. Donde se encuentran los lineamientos para los procedimientos de los proyectos de inversión.
 </p>
 <p align="justify">
-    Con la resolución de Rectoría No. 418 del 24 de abril del 2000, se organizó el Banco de Proyectos de la Universidad Nacional de Colombia, como un sistema de información en red administrado por la Oficina Nacional de Planeación.
+    Con la resolución de Rectoría No. 418 del 24 de abril del 2000, se organizó el Banco de Proyectos de la Universidad Nacional de Colombia, como un sistema de información en red administrado por la Oficina Nacional de Planeación.
 </p>
 <p align="justify">
     Banco de Proyectos de la Universidad Nacional - BPUN. Es un aplicativo que vincula la planeación con el registro de la formulación, la ejecución, el seguimiento, la evaluación final y cierre de los programas y proyectos de inversión de gestión y soporte institucional, seleccionados como viables y previamente evaluados técnica, económica y socialmente.
