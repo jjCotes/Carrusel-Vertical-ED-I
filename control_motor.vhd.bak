@@ -1,0 +1,94 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+entity control_motor is
+
+	port(
+		-- Input ports
+		clk: in  std_logic;        
+		gira: in std_logic; 
+		
+		-- Output ports
+		bobinas: out std_logic_vector(3 downto 0)
+		); --Salida al motor
+		
+end control_motor;
+
+
+architecture arch of control_motor is
+
+signal clkmotor: std_logic;
+
+signal clkantirebote: std_logic;
+
+signal esatdo: std_logic_vector(1 downto 0);
+
+	component div_frec
+	port (clk: in  std_logic;
+		   Nciclos: in	integer;
+			f: out std_logic
+	);
+	
+	end component;
+	
+		component anti_rebote
+	port (clk: in  std_logic;        
+		   Boton: in std_logic;
+			Botonfiltrado: out std_logic
+	);
+	end component;
+
+begin
+
+   instancia1: div_frec port map (clk, 50000, clkmotor);
+	
+   instancia2: div_frec port map (clk, 500000, clkantirebote);
+	
+	instancia3: anti_rebote port map (clkantirebote, gira, BotongiraFiltrado);
+
+	process(clkmotor)
+	
+	begin	
+	
+	if rising_edge(clkmotor) then --Cambia
+	
+	if BotongiraFiltrado = '0' then 
+	
+	if estado = "00" then 
+	
+	salida <= "1100";
+	
+	estado = "01"
+	
+	elsif estado = "01" then
+	
+	salida <= "0110";
+	
+	estado = "10"
+	
+	elsif estado = "10" then 
+	
+	salida <= "0011";
+	
+	estado = "11"
+	
+	else
+	
+	salida <= "1001";
+	
+	estado = "00"
+	
+	end if;
+			
+	end if;
+	
+	end if;
+	
+	end process;
+	
+Q <= salida;
+
+end arch;

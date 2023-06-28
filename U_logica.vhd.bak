@@ -1,0 +1,93 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+entity U_logica is
+
+	port(
+		-- Input ports
+		clk: in  std_logic;
+      DetectoTarjeta: in  std_logic; --Saber si se detecto tarjeta
+		Lecturatarjeta: in std_logic_vector(5 downto 0); -- Conocer el codigo de la tarjeta
+
+		
+		-- Output ports
+		EstaAqui: out std_logic
+		); 
+		
+end U_logica;
+
+architecture arch of U_logica is
+
+signal ElCascoEstaEnElArreglo: std_logic := '0';
+
+signal Arreglomemoriascero: std_logic_vector(59 downto 0) := "000000000000101010111111000000111111111111111111000000111111"; 
+	
+signal Arreglomemoriascopia: std_logic_vector(59 downto 0) := Arreglomemoriascero;
+
+begin 
+
+	process(clk)
+	
+	variable EstaAquiEseCasco: std_logic := '0';
+	
+	begin
+	
+	
+	if rising_edge(clk) then
+	
+	if DetectoTarjeta = '1' then 
+	
+	
+	for i in 0 to 9 loop --Miramos si el casco esta en el sistema
+		
+		if LecturaTarjeta =  Arreglomemoriascopia(59 downto 54) then
+		
+		EstaAquiEseCasco := '1';
+		
+		else 
+		
+		contador := contador + "0001";
+		
+		end if;
+		
+		Arreglomemoriascopia := Arreglomemoriascopia(53 downto 0) & Arreglomemoriascopia(59 downto 54);
+		
+	end loop;
+	
+	if contador = "1010" then
+	
+	contador := "0000";
+	
+	EstaAquiEseCasco := '0';
+	
+	else 
+	
+	contador := "0000";
+	
+	end if; --Actualización de contador
+	
+	
+--	if ElCascoEstaEnElArreglo = '1' then 
+	
+	
+	--else --Si el casco no esta en el arreglo
+	
+	--end if; --Si el casco esta en el arreglo 
+	
+	
+	else --Si no detecto tarjeta
+	
+	
+	end if; --si detecte tarjeta
+
+	end if; --El del rising edge
+	
+	
+	
+	end process;
+
+
+end arch;

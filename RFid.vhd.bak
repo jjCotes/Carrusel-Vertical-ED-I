@@ -1,0 +1,69 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+entity RFid is
+
+	port(
+		-- Input ports
+		clk: in  std_logic;
+      DetectoTarjeta: in  std_logic; --Saber si se detecto tarjeta
+		Lecturatarjeta: in std_logic_vector(5 downto 0); -- Conocer el codigo de la tarjeta
+		-- Output ports
+		Sentidogiro: out std_logic); --Salida
+		
+end RFid;
+
+
+architecture arch of RFid is
+
+signal ID std_logic_vector(5 downto 0);
+
+signal Arreglomemoriascero std_logic_vector(59 downto 0) := "000000000000000000000000000000000000000000000000000000000000"; 
+
+signal Arreglomemoriascopia std_logic_vector(59 downto 0);
+
+signal EstaAquiEseCasco std_logic_vector(9 downto 0) := "0000000000";
+
+
+
+begin 
+
+Arreglomemoriascopia <= Arreglomemoriascero;
+
+	process(clk)  
+	
+	begin
+	
+
+		if rising_edge(clk) then 
+
+      if DetectoTarjeta = '1' then
+		
+		ID <= Lecturatarjeta;
+		
+		
+		for i in 0 to 9 loop --Miramos si el casco esta en el sistema
+		
+		if ID =  Arreglomemoriascopia(59 downto 53) then
+		
+		EstaAquiEseCasco(i) <= '1';
+		
+		end if;
+		
+		Arreglomemoriascopia <= Arreglomemoriascopia(53 downto 0)  + Arreglomemoriascopia(59 downto 53)
+		
+		end loop;
+		
+		
+		end if;
+
+		end if;	
+	
+	end process;
+	
+Q <= salida;
+
+end arch;

@@ -1,0 +1,95 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+entity memoriaymotor is
+
+	port(
+		-- Input ports
+		clk: in  std_logic;        
+		elcascoesta: in std_logic_vector(1 downto 0);
+		IDentrada:in std_logic_vector(5 downto 0);
+		-- Output ports
+		Sentidogirosalidadirecta: in std_logic_vector(1 downto 0); --Salida
+		Motorsedetuvo: out std_logic;
+		); --Salida al motor
+		
+end memoriaymotor;
+
+
+architecture arch of memoriaymotor is
+
+signal Arreglomemoriascero: std_logic_vector(59 downto 0) := "000000000000000000000000000000000000000000000000000000000000"; 
+
+signal clkmotorcontrol: std_logic;
+
+signal contadorvueltas: std_logic_vector(9 downto 0) := "0000000000";
+
+	component div_frec
+	port (clk: in  std_logic;
+		   Nciclos: in	integer;
+			f: out std_logic
+	);
+	
+	end component;
+	
+	signal Arreglomemoriascopia: std_logic_vector(59 downto 0) := Arreglomemoriascero;
+
+begin
+
+   instancia1: div_frec port map (clk, 50000, clkmotorcontrol);
+
+	process(clkmotorcontrol)
+	
+	begin	
+	
+	if rising_edge(clkmotorcontrol) then --Cambia
+	
+	if elcascoesta = "00" then
+	
+	Sentidogirosalidadirecta <= elcascoesta;
+	
+	end if;
+	
+	if elcascoesta = "10" then
+	
+	
+	if Arreglomemoriascopia = IDentrada then
+	
+	contadorvueltas <= "0000000000";
+	
+	Motordetenido <= '1';
+	
+	Arreglomemoriascero <= "000000" & Arreglomemoriascero(53 downto 0);
+	
+	
+	else
+
+	contadorvueltas <= contadorvueltas + "0000000001";
+	
+	Sentidogirosalidadirecta <= Sentidogiro;
+	
+	
+	if contadorvueltas > "0110010000" then
+	
+	contadorvueltas <= "0000000000";
+	
+	Arreglomemoriascopia  <= Arreglomemoriascopia(53 downto 0) & Arreglomemoriascopia(59 downto 54);
+	
+	end if;
+	
+
+   end if;
+	
+	end if;
+	
+	end if;
+	
+	
+	
+	end process;
+	
+
+end arch;
