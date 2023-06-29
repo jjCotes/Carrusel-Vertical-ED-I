@@ -136,6 +136,8 @@
 
 https://github.com/jjCotes/Electronica-Digital-I-2023-I/assets/49933067/974ba413-4aed-4c4c-8b41-b446440c104f
 
+[Aquí](https://www.youtube.com/watch?v=nqqfatD8eCk) se muestra un video más detallado del funcionamiento del proyecto.
+
 <br>
 
 - <h4>Ensamble del motor al eje principal del carrusel</h4>
